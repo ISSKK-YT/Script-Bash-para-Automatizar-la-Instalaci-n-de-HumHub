@@ -1,0 +1,1 @@
+# Script-Bash-para-Automatizar-la-Instalaci-n-de-HumHub
