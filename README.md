@@ -2,6 +2,8 @@
 
 Instrucciones de Uso
 
+Descarga este repocitorio: git https://github.com/ISSKK-YT/Script-Bash-para-Automatizar-la-Instalaci-n-de-HumHub.git
+
 Dale permisos de ejecución: chmod +x install-humhub.sh
 
 Ejecuta como root: sudo ./install-humhub.sh
