@@ -2,9 +2,9 @@
 
 Instrucciones de Uso
 
-Dale permisos de ejecución: chmod +x install_humhub.sh
+Dale permisos de ejecución: chmod +x install-humhub.sh
 
-Ejecuta como root: sudo ./install_humhub.sh
+Ejecuta como root: sudo ./install-humhub.sh
 
 Requisitos Previos
 Sistema operativo: Ubuntu/Debian o CentOS/RHEL
