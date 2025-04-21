@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Script de instalación automatizada de HumHub
-# Versión: 1.0
-# Autor: ISSKK
-# Requisitos: Ubuntu/Debian o CentOS/RHEL
+echo -e "Script de instalación automatizada de HumHub"
+echo -e "${GREEN}Versión: 1.1${NC}"
+echo -e "Autor: ISSKK"
+echo -e "${GREEN}Requisitos: Ubuntu/Debian o CentOS/RHEL${NC}"
 
 # Colores para la salida
 RED='\033[0;31m'
@@ -178,9 +178,9 @@ main() {
     DB_NAME=${DB_NAME:-humhub}
     read -p "Usuario de la base de datos (humhub): " DB_USER
     DB_USER=${DB_USER:-humhub}
-    read -s -p "Contraseña para el usuario de la base de datos: " DB_PASS
+    read -p "Contraseña para el usuario de la base de datos: " DB_PASS
     echo
-    read -s -p "Contraseña root de MySQL/MariaDB (dejar vacío para configurar): " DB_ROOT_PASS
+    read -p "Contraseña root de MySQL/MariaDB (dejar vacío para configurar): " DB_ROOT_PASS
     echo
     
     # Instalar dependencias según el SO
